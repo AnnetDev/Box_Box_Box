@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "Formula1";
+  src: url("./fonts/Formula-1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Saira";
+  src: url("./fonts/Saira-VariableFont_wdth,wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900; /* Диапазон от Thin до Black */
+  font-stretch: 50% 125%; /* Диапазон от UltraCondensed до Expanded */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saira';
+    src: url('./fonts/Saira-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-stretch: 50% 125%;
+    font-style: italic;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%; // for sticky footer
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column; // for sticky footer
+  justify-content: space-between; // for sticky footer
+  overflow-x: hidden;
+  /* font-family: variables.$main-font; */
+  font-size: 14px;
+  /* color: variables.$main-black;
+    background-color: variables.$main-white; */
+}
+
+main {
+  flex-grow: 1; // for sticky footer
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.overlay-active::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(13, 29, 51, 0.4);
+  z-index: 2;
+}
+
+.overlay-no-scroll {
+  overflow: hidden;
+}
+
+button,
+.button {
+  cursor: pointer;
+  background-color: #df0e15;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 15px;
+  max-width: max-content;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+button:hover,
+.button:hover {
+    scale: 1.05;
+}
+
+button:active,
+.button:active {
+    scale: 0.9;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ------------------------------ */
+.hero {
+  position: relative;
+  /* min-height: 400px; */
+  min-height: 100vh;
+  padding-top: 10%;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: 800px;
+    /* min-height: 100vh; */
+
+  }
+}
+
+.hero:after {
+  position: absolute;
+  content: "";
+  background-color: #000000;
+  background-image: url("/images/herobg-mob.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+@media (min-width: 768px) {
+  .hero:after {
+    background-image: url("/images/herobg.webp");
+    min-height: 700px;
+  }
+}
+
+.hero__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.hero__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 -30%;
+  padding: 0;
+  font-size: 25px;
+  color: #e9e9e9;
+  text-transform: uppercase;
+  font-family: "Formula1", sans-serif;
+}
+
+.hero__subtitle-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  color: #e9e9e9;
+  text-transform: uppercase;
+  font-family: "Saira", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  /* letter-spacing: 0.05em; */
+
+}
+
+.hero__subtitle-logo {
+  height: 60px;
+}
+
+.hero__description,
+a.hero__button {
+  display: flex;
+  /* margin: 0;
+  padding: 0; */
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Saira", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.hero__description {
+  max-width: 50%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+
+}
+
+a.hero__button {
+    font-size: 18px;
+    margin-bottom: 120px;
+}
+
+.hero__arrow-btn {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero__arrow-btn svg {
+    fill: #e9e9e9;
+    width: 30px;
+}
+
+/* ------------------------------- */
