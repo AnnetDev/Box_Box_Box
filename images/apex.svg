@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" fill="none">
+  <!-- Corner path: enter from left, arc through apex, exit downward -->
+  <path
+    d="M 10 70 L 90 70 A 50 50 0 0 1 140 120 L 140 155"
+    stroke="white"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.9"
+  />
+  <!-- Apex dot — the key point -->
+  <circle cx="95" cy="72" r="5" fill="white" opacity="0.9"/>
+  <!-- Small label tick -->
+  <line x1="95" y1="58" x2="95" y2="64" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+</svg>

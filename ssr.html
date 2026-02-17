@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Box, box, box!</title>
 </head>
+
 <body>
     <main>
         <section class="hero">
@@ -13,29 +15,425 @@
                 <h1 class="hero__title" id="hero__title">Box, box, box!</h1>
                 <div class="hero__subtitle-container">
                     <img class="hero__subtitle-logo" src="/images/f1logo.svg" alt="Formula-1 logotype">
-                    <h2 class="hero__subtitle">Formula 1</h2></div>
-                <p class="hero__description">Your short guide to F1 terminology, team roster and why "we are checking" is never a good sign</p>
-                <a class="hero__button button" href="#core-definitions">Explore F1</a>    
-                <a class="hero__arrow-btn button" href="#core-definitions">
-                    <svg viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m0 4.2 1.24-1.2 3.76 3.62 3.76-3.62 1.24 1.2-5 4.8-5-4.8Z" fill="#e9e9e9"/></svg>
+                    <h2 class="hero__subtitle">Formula 1</h2>
+                </div>
+                <p class="hero__description">Your short guide to F1 terminology, team roster and why "we are checking"
+                    is never a good sign</p>
+                <a class="hero__button button" href="#race-terms">Explore F1</a>
+                <a class="hero__arrow-btn button" href="#race-terms">
+                    <svg viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="m0 4.2 1.24-1.2 3.76 3.62 3.76-3.62 1.24 1.2-5 4.8-5-4.8Z" fill="#e9e9e9" />
+                    </svg>
                 </a>
             </div>
-
-            
         </section>
 
-        <section class="core-definitions" id="core-definitions">
-            <h2>Core definitions</h2>
-        </section>
+        <div class="main-content-wrapper" id="main-content-wrapper">
+            <div class="main-content-left" id="main-content-left">
+                <section class="teams" id="teams">
+                    <h2 class="teams__title" id="teams__title">Teams and drivers 2026</h2>
+                    <ul class="teams__list" id="teams__list">
+                        <li class="teams__list-item teams__list-item--RB" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Red Bull</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Max Verstappen</p>
+                                <p class="teams__driver2" id="teams__driver2">Isack Hadjar</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--SF" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Ferrari</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Charles Leclerc</p>
+                                <p class="teams__driver2" id="teams__driver2">Lewis Hamilton</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--MP" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Mercedes</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">George Russell</p>
+                                <p class="teams__driver2" id="teams__driver2">Kimi Antonelli</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--MR" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">McLaren</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Lando Norris</p>
+                                <p class="teams__driver2" id="teams__driver2">Oscar Piastri</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--AM" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Aston Martin</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Fernando Alonso</p>
+                                <p class="teams__driver2" id="teams__driver2">Lance Stroll</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--AT" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Alpine</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Pierre Gasly</p>
+                                <p class="teams__driver2" id="teams__driver2">Franco Colapinto</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--WR" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Williams</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Carlos Sainz</p>
+                                <p class="teams__driver2" id="teams__driver2">Alexander Albon</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--HT" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Haas</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Esteban Ocon</p>
+                                <p class="teams__driver2" id="teams__driver2">Oliver Bearman</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--Au" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Audi</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Nico Hülkenberg</p>
+                                <p class="teams__driver2" id="teams__driver2">Gabriel Bortoleto</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--racing-bulls" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Racing Bulls</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Liam Lawson</p>
+                                <p class="teams__driver2" id="teams__driver2">Arvid Lindblad</p>
+                            </div>
+                        </li>
+                    
+                        <li class="teams__list-item teams__list-item--CF1" id="teams__list-item">
+                            <h3 class="teams__team-name" id="teams__team-name">Cadillac</h3>
+                            <div class="teams__drivers" id="teams__drivers">
+                                <p class="teams__driver1" id="teams__driver1">Sergio Pérez</p>
+                                <p class="teams__driver2" id="teams__driver2">Valtteri Bottas</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
 
-        <section class="teams">
-            <h2>Teams and drivers</h2>
-        </section>
+                <aside class="links">
+                    <a class="links__tires" href="https://www.formula1.com/en/latest/article/pirelli-confirm-2026-tyre-compounds-as-f1-gets-set-for-a-new-era-of.6la0zKVsCYwWk9AAISz4Yw" >
+                        <img class="links__tires-img" src="images/tires.webp" alt="Tires for F1 cars">
+                        <h2 class="links__tires-title">Pirelli confirm 2026 tyre compounds</h2>
+                    </a>
+                </aside>
+            </div>
+            <div>
+                <section class="race-terms" id="race-terms">
+                    <h2 class="race-terms__title">Race Terms</h2>
+                    <ul class="race-terms__list">
+                        <li class="race-terms__list-item">
+                            <h3 class="race-terms__card-title">Box Box Box!</h3>
+                            <p class="race-terms__card-description">
+                                Team radio code for "COME IN FOR A PIT STOP RIGHT NOW!" Repeated three times
+                                because apparently once isn't urgent enough. Mechanics change 4 tires in 2 seconds
+                                while you're still trying to parallel park. Absolute wizardry.
+                            </p>
+                        </li>
+                        <li class="race-terms__list-item">
+                            <h3 class="race-terms__card-title">Tires Are Gone</h3>
+                            <p class="race-terms__card-description">
+                                Lewis Hamilton's favorite phrase. Means the tires are losing grip and performance.
+                                Plot twist: He usually says this and then proceeds to set the fastest lap.
+                                It's the F1 equivalent of "I didn't study" and then acing the exam.
+                            </p>
+                        </li>
+                        <li class="race-terms__list-item">
+                            <h3 class="race-terms__card-title">Undercut</h3>
+                            <p class="race-terms__card-description">
+                                Pit before your rival, get fresh tires, go faster, and overtake them while they're
+                                still out on old rubber. It's strategic genius when it works, and a disaster when
+                                you get stuck in traffic. Chess, but at 300 km/h.
+                            </p>
+                        </li>
+                        <li class="race-terms__list-item">
+                            <h3 class="race-terms__card-title">Safety Car</h3>
+                            <p class="race-terms__card-description">
+                                A Mercedes AMG or Aston Martin that comes out when something's gone wrong on track. All
+                                cars must
+                                slow down and follow it in a sad parade while marshals clean up debris/crashed cars.
+                                Ruins your race or saves it—depends on your strategy. Also known as "the great
+                                equalizer."
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="quotes" id="quotes">
+                    <h2 class="quotes__title" id="quotes__list">F1 Quotes — Explained</h2>
+                    <ul class="quotes__list" id="quotes__list">
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“We are checking.” — Ferrari pit wall</blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“We have no idea. Please wait.”</p>
+                            </div>
+
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>
+                                “Plan B.” — Ferrari pit wall
+                            </blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“Plan A never existed.”</p>
+                            </div>
+                        </li>
+
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“Box, box.” — Every F1 race engineer ever
+                            </blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“Come in. Something chaotic is happening.”</p>
+                            </div>
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>
+                                “Leave me alone, I know what I’m doing.” — Kimi Räikkönen
+                            </blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“Stop talking. I’m driving.”
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote> “NOOOOO!” — Charles Leclerc
+                            </blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“I have just understood the strategy.”
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“Tires are gone.” - classic radio line
+                            </blockquote>
+                            <div><p>True meaning:</p><p>“I’m now a passenger on ice.”
+                            </div>
+                            </p>
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“Something is dangling between my legs.” — Sebastian Vettel</blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“There’s a loose piece on the car and it’s… uncomfortably located.”</p>
+                            </div>
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“Karma.” — Fernando Alonso</blockquote>
+                            <div>
+                                <p>True meaning:</p>
+                                <p>“I remember everything. The universe does too.”</p>
+                            </div>
+                        </li>
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“Push, push.” — any race engineer</blockquote>
+                            <div>
+                                <p>True meaning:</p><p>“Drive faster. How? Figure it out.”</p>
+                            </div>
+                        </li>
+
+                        <li class="quotes__list-item" id="quotes__list-item">
+                            <blockquote>“Simply lovely.” — Max Verstappen</blockquote>
+                            <div>
+                                <p>True meaning:</p><p>“I am furious, but I’m being broadcast-friendly.”</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <section class="track-elements" id="track-elements">
+                    <h2 class="track-elements__title" id="track-elements__title">Track elements</h2>
+                    <ul class="track-elements__list" id="track-elements__list">
+                        <li class="track-elements__list-item" id="track-elements__list-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160"
+                                fill="none">
+                                <path d="M 30 150 L 30 55 A 45 45 0 0 1 120 55 L 120 150" stroke="white"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
+                            </svg>
+
+                            <div class="track-elements__card-text-wrapper" id="track-elements__card-text-wrapper">
+                                <h3 class="track-elements__card-title" id="track-elements__card-title">Hairpin</h3>
+                                <p class="track-elements__card-description" id="track-elements__card-description">
+                                    A 180° turn where cars slow down from "extremely fast" to "my grandma's Prius."
+                                    The ultimate test of braking. Also the place where overtakes happen because
+                                    someone braked 0.2 seconds too late and now they're best friends with the barrier.
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="track-elements__list-item" id="track-elements__list-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160"
+                                fill="none">
+                                <path d="M 10 80L 40 80C 55 80 55 40 75 40L 90 40C 110 40 110 120 130 120L 150 120"
+                                    stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                    opacity="0.9" />
+                            </svg>
+
+                            <div class="track-elements__card-text-wrapper" id="track-elements__card-text-wrapper">
+                                <h3 class="track-elements__card-title" id="track-elements__card-title">Chicane</h3>
+                                <p class="track-elements__card-description" id="track-elements__card-description">
+                                    A sequence of quick left-right-left turns designed to slow cars down and make
+                                    drivers
+                                    question their life choices. Basically speed bumps, but make it Formula 1.
+                                    Watch cars wiggle through like they're dodging responsibility.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="track-elements__list-item" id="track-elements__list-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160"
+                                fill="none">
+                                <line x1="10" y1="80" x2="138" y2="80" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" opacity="0.9" />
+                                <polyline points="122,64 142,80 122,96" stroke="white" stroke-width="3"
+                                    stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
+                            </svg>
+                            <div class="track-elements__card-text-wrapper" id="track-elements__card-text-wrapper">
+                                <h3 class="track-elements__card-title" id="track-elements__card-title">Straight</h3>
+                                <p class="track-elements__card-description" id="track-elements__card-description">
+                                    The only part of the track where drivers can actually floor it and reach 350+ km/h.
+                                    No turning, just pure speed and hoping your engine doesn't explode.
+                                    Also where DRS turns your car into a rocket ship (terms and conditions apply).
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="track-elements__list-item" id="track-elements__list-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160"
+                                fill="none">
+                                <!-- Corner path: enter from left, arc through apex, exit downward -->
+                                <path d="M 10 70 L 90 70 A 50 50 0 0 1 140 120 L 140 155" stroke="white"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />
+                                <!-- Apex dot — the key point -->
+                                <circle cx="95" cy="72" r="5" fill="white" opacity="0.9" />
+                                <!-- Small label tick -->
+                                <line x1="95" y1="58" x2="95" y2="64" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" opacity="0.5" />
+                            </svg>
+
+                            <div class="track-elements__card-text-wrapper" id="track-elements__card-text-wrapper">
+                                <h3 class="track-elements__card-title" id="track-elements__card-title">Apex</h3>
+                                <p class="track-elements__card-description" id="track-elements__card-description">
+                                    The geometrically perfect point of a corner. Hit it and you're a hero.
+                                    Miss it and you're in the gravel, contemplating your choices while marshals wave
+                                    flags.
+                                    It's like the sweet spot on a tennis racket, except missing it costs millions.
+                                </p>
+                            </div>
+
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="tech" id="tech">
+                    <h2 class="tech__title" id="tech__title">Tech</h2>
+                    <ul class="tech__list" id="tech__list">
+                        <li class="tech__list-item" id="tech__list-item">
+                            <h3 class="tech__card-title">DRS</h3>
+                            <div class="card-label">Drag Reduction System</div>
+                            <div class="tech__card-divider"></div>
+                            <p class="tech__card-description">
+                                The rear wing opens up and suddenly you're 15 km/h faster. It's like a cheat code,
+                                but legal. Only works if you're within 1 second of the car ahead and in designated
+                                zones.
+                                Basically: "You're slow? Here, have some extra speed. You're welcome."
+                            </p>
+                        </li>
+                        <li class="tech__list-item" id="tech__list-item">
+                            <h3 class="tech__card-title">ERS</h3>
+                            <div class="tech__card-label">Energy Recovery System</div>
+                            <div class="tech__card-divider"></div>
+                            <p class="card-description">
+                                Harvests energy from braking and exhaust heat to give you an extra 160 horsepower boost.
+                                It's a hybrid system that makes your car both fast AND environmentally conscious.
+                                Manage it wrong and you're a sitting duck. Manage it right and you're overtaking
+                                everyone.
+                            </p>
+                        </li>
+                        <li class="tech__list-item" id="tech__list-item">
+                            <h3 class="tech__card-title">KERS</h3>
+                            <div class="tech__card-label">Kinetic Energy Recovery (retired 2014)</div>
+                            <div class="tech__card-divider"></div>
+                            <p class="tech__card-description">
+                                The OG energy recovery system. Gave you 80 extra horsepower for ~6 seconds per lap.
+                                Drivers would save it like a video game power-up, then unleash it for dramatic
+                                overtakes.
+                                Now replaced by ERS, which is basically KERS but it went to the gym.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="flags" id="flags">
+                    <h2 class="flags__title" id="flags-title">Flags Reference</h2>
+                    <ul class="flags__list" id="flags-list">
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--green"></div>
+                            <h3 class="flags__list-item-flag-title">Green</h3>
+                            <p class="flags__list-item-flag-description">Go Fast</p>
+                        </li>
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--yellow"></div>
+                            <h3 class="flags__list-item-flag-title">Yellow</h3>
+                            <p class="flags__list-item-flag-description">Slow Down</p>
+                        </li>
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--red"></div>
+                            <h3 class="flags__list-item-flag-title">Red</h3>
+                            <p class="flags__list-item-flag-description">Stop Session</p>
+                        </li>
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--blue"></div>
+                            <h3 class="flags__list-item-flag-title">Blue</h3>
+                            <p class="flags__list-item-flag-description">Move Over</p>
+                        </li>
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--white"></div>
+                            <h3 class="flags__list-item-flag-title">White</h3>
+                            <p class="flags__list-item-flag-description">Slow Vehicle</p>
+                        </li>
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--black"></div>
+                            <h3 class="flags__list-item-flag-title">Black</h3>
+                            <p class="flags__list-item-flag-description">Disqualified</p>
+                        </li>
+                        <li class="flags__list-item" id="flags-list-item">
+                            <div class="flags__list-item-flag flags__list-item-flag--chequered"></div>
+                            <h3 class="flags__list-item-flag-title">Chequered</h3>
+                            <p class="flags__list-item-flag-description">Finish</p>
+                        </li>
+                    </ul>
+
+                </section>
+
+            </div>
+        </div>
 
         <section></section>
     </main>
     <footer>Footer</footer>
 
-    
+
 </body>
+
 </html>
