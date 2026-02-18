@@ -122,5 +122,13 @@
                 "termDescription": "A Mercedes AMG or Aston Martin that comes out when something's gone wrong on track. All cars must slow down and follow it in a sad parade while marshals clean up debris/crashed cars. Ruins your race or saves it—depends on your strategy. Also known as \"the great equalizer.\""
             }
         ]
-    }
+    },
+    "heroSection": {
+        "title": "Box, box, box!",
+        "subtitle": "Formula 1",
+        "imgSrc": "/images/icons/f1logo.svg",
+        "imgAlt": "Formula 1 logo",
+        "description": "Your short guide to F1 terminology, team roster and why \"we are checking\" is never a good sign"
+        }
+
 }
