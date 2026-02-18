@@ -1,0 +1,56 @@
+export const createLayout = () => {
+    const body = document.querySelector("body");
+    const main = document.createElement("main");
+    const footer = document.createElement("footer");
+    const hero = document.createElement("section");
+    const mainContent = document.createElement("div");
+    const mainContentLeft = document.createElement("div");
+    const mainContentRight = document.createElement("div");
+    const teamsSection = document.createElement("section");
+    const asideLinks = document.createElement("aside");
+    const raceTermsSection = document.createElement("section");
+    const quotesSection = document.createElement("section");
+    const trackElemsSection = document.createElement("section");
+    const techSection = document.createElement("section");
+    const flagsSection = document.createElement("section");
+
+
+    footer.classList.add("footer");
+    footer.setAttribute("id", "footer");
+    hero.classList.add("hero");
+    hero.setAttribute("id", "hero");
+    mainContent.classList.add("main-content-wrapper");
+    mainContent.setAttribute("id", "main-content-wrapper");
+    mainContentLeft.classList.add("main-content-left");
+    mainContentLeft.setAttribute("id", "main-content-left");
+    mainContentRight.classList.add("main-content-right");
+    mainContentRight.setAttribute("id", "main-content-right");
+    teamsSection.classList.add("teams");
+    teamsSection.setAttribute("id", "teams");
+    asideLinks.classList.add("links");
+    asideLinks.setAttribute("id", "links");
+    raceTermsSection.classList.add("race-terms");
+    raceTermsSection.setAttribute("id", "race-terms");
+    quotesSection.classList.add("quotes");
+    quotesSection.setAttribute("id", "quotes");
+    trackElemsSection.classList.add("track-elements");
+    trackElemsSection.setAttribute("id", "track-elements");
+    techSection.classList.add("tech");
+    techSection.setAttribute("id", "tech");
+    flagsSection.classList.add("flags");
+    flagsSection.setAttribute("id", "flags");
+
+    body.prepend(footer);
+    body.prepend(main);
+    main.appendChild(hero);
+    main.appendChild(mainContent);
+    mainContent.appendChild(mainContentLeft);
+    mainContent.appendChild(mainContentRight);
+    mainContentLeft.appendChild(teamsSection);
+    mainContentLeft.appendChild(asideLinks);
+    mainContentRight.appendChild(raceTermsSection);
+    mainContentRight.appendChild(quotesSection);
+    mainContentRight.appendChild(trackElemsSection);
+    mainContentRight.appendChild(techSection);
+    mainContentRight.appendChild(flagsSection);
+};

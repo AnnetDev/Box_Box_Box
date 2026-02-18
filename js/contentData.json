@@ -1,0 +1,126 @@
+{
+    "teamsSection": {
+        "title": "Teams and drivers 2026",
+        "className": "teams",
+        "id": "teams",
+        "teams": [
+            {
+                "name": "Red Bull",
+                "uniqueClassName": "teams__list-item--RB",
+                "drivers": [
+                    "Max Verstappen",
+                    "Isack Hadjar"
+                ]
+            },
+            {
+                "name": "Ferrari",
+                "uniqueClassName": "teams__list-item--SF",
+                "drivers": [
+                    "Charles Leclerc",
+                    "Lewis Hamilton"
+                ]
+            },
+            {
+                "name": "Mercedes",
+                "uniqueClassName": "teams__list-item--MP",
+                "drivers": [
+                    "George Russell",
+                    "Kimi Antonelli"
+                ]
+            },
+            {
+                "name": "McLaren",
+                "uniqueClassName": "teams__list-item--MR",
+                "drivers": [
+                    "Lando Norris",
+                    "Oscar Piastri"
+                ]
+            },
+            {
+                "name": "Aston Martin",
+                "uniqueClassName": "teams__list-item--AM",
+                "drivers": [
+                    "Fernando Alonso",
+                    "Lance Stroll"
+                ]
+            },
+            {
+                "name": "Alpine",
+                "uniqueClassName": "teams__list-item--AT",
+                "drivers": [
+                    "Pierre Gasly",
+                    "Franco Colapinto"
+                ]
+            },
+            {
+                "name": "Williams",
+                "uniqueClassName": "teams__list-item--WR",
+                "drivers": [
+                    "Carlos Sainz",
+                    "Alexander Albon"
+                ]
+            },
+            {
+                "name": "Haas",
+                "uniqueClassName": "teams__list-item--HT",
+                "drivers": [
+                    "Esteban Ocon",
+                    "Oliver Bearman"
+                ]
+            },
+            {
+                "name": "Audi",
+                "uniqueClassName": "teams__list-item--Au",
+                "drivers": [
+                    "Nico Hülkenberg",
+                    "Gabriel Bortoleto"
+                ]
+            },
+            {
+                "name": "Racing Bulls",
+                "uniqueClassName": "teams__list-item--racing-bulls",
+                "drivers": [
+                    "Liam Lawson",
+                    "Arvid Lindblad"
+                ]
+            },
+            {
+                "name": "Cadillac",
+                "uniqueClassName": "teams__list-item--CF1",
+                "drivers": [
+                    "Sergio Pérez",
+                    "Valtteri Bottas"
+                ]
+            }
+        ]
+    },
+    "asideSection": {
+        "title": "",
+        "className": "links",
+        "tyresLinkHref": "https://www.formula1.com/en/latest/article/pirelli-confirm-2026-tyre-compounds-as-f1-gets-set-for-a-new-era-of.6la0zKVsCYwWk9AAISz4Yw",
+        "tyresLinkImgSrc": "images/tyres.webp",
+        "tyresLinkImgAlt": "Tyres for F1 cars",
+        "tyresTitle": "Pirelli confirm 2026 tyre compounds"
+    },
+    "raceTermsSection": {
+        "title": "Race Terms",
+        "raceTerms": [
+            {
+                "termTitle": "Box Box Box!",
+                "termDescription": "Team radio code for \"COME IN FOR A PIT STOP RIGHT NOW!\" Repeated three times because apparently once isn't urgent enough. Mechanics change 4 tyres in 2 seconds while you're still trying to parallel park. Absolute wizardry."
+            },
+            {
+                "termTitle": "Tyres Are Gone",
+                "termDescription": "Lewis Hamilton's favorite phrase. Means the tyres are losing grip and performance. Plot twist: He usually says this and then proceeds to set the fastest lap. It's the F1 equivalent of \"I didn't study\" and then acing the exam."
+            },
+            {
+                "termTitle": "Undercut",
+                "termDescription": "Pit before your rival, get fresh tyres, go faster, and overtake them while they're still out on old rubber. It's strategic genius when it works, and a disaster when you get stuck in traffic. Chess, but at 300 km/h."
+            },
+            {
+                "termTitle": "Safety Car",
+                "termDescription": "A Mercedes AMG or Aston Martin that comes out when something's gone wrong on track. All cars must slow down and follow it in a sad parade while marshals clean up debris/crashed cars. Ruins your race or saves it—depends on your strategy. Also known as \"the great equalizer.\""
+            }
+        ]
+    }
+}
