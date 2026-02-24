@@ -8,6 +8,10 @@ export const createFooter = async () => {
     const res = await fetch("js/contentData.json");
     const contentData = await res.json();
 
+    if(!contentData.footerSection) {
+        return;
+    }
+
     const footerNavLinksList = document.createElement("ul");
     footerNavLinksList.classList.add("footer__quick-links");
 

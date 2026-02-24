@@ -8,6 +8,10 @@ export const techSectionCreator = async () => {
     const res = await fetch("js/contentData.json");
     const contentData = await res.json();
 
+    if(!contentData.techSection) {
+        return;
+    }
+
     const sectionTitle = document.createElement("h2");
     sectionTitle.classList.add("tech__title");
     sectionTitle.textContent = contentData.techSection.title;

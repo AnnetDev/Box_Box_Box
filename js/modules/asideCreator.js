@@ -8,7 +8,7 @@ export const createAside = async () => {
     const res = await fetch("js/contentData.json");
     const contentData = await res.json();
 
-    if(!contentData) {
+    if(!contentData.asideSection) {
         return;
     }
 

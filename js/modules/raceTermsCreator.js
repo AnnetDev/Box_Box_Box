@@ -8,9 +8,9 @@ export const createRaceTermsSection = async () => {
     const res = await fetch("js/contentData.json");
     const contentData = await res.json();
 
-    // if(!contentData.raceTermsSection || !contentData.raceTermsSection.terms) {
-    //     return;
-    // }
+    if(!contentData.raceTermsSection) {
+        return;
+    }
 
     const receTermSectionTitle = document.createElement("h2");
     const receTermsList = document.createElement("ul");

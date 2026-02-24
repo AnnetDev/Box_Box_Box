@@ -59,14 +59,14 @@ main {
 }
 
 main:after {
-    position: absolute;
-    content: "";
-    background-color: #151414;
-    background-image: url("/images/icons/bg-grid.svg");
-  
-    width: 100%;
-    height: 100%;
-    z-index: -2;
+  position: absolute;
+  content: "";
+  background-color: #151414;
+  background-image: url("/images/icons/bg-grid.svg");
+
+  width: 100%;
+  height: 100%;
+  z-index: -2;
 }
 
 img {
@@ -195,8 +195,6 @@ section {
   }
 }
 
-
-
 .hero__title {
   display: flex;
   justify-content: center;
@@ -242,7 +240,6 @@ section {
   }
   .hero__subtitle {
     font-size: 60px;
-
   }
 }
 
@@ -310,9 +307,6 @@ a.hero__button {
   }
 }
 
-
-
-
 @keyframes bounce {
   0%,
   100% {
@@ -367,7 +361,6 @@ a.hero__button {
   }
 } */
 
-
 .quotes__list-item div {
   display: flex;
   flex-flow: column wrap;
@@ -399,7 +392,6 @@ a.hero__button {
     right: -198px;
   }
 }
-
 
 .quotes__list {
   display: grid;
@@ -450,14 +442,13 @@ a.hero__button {
 
 /* -------------------------- */
 
-
 .race-terms__list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-items: center;  
+  justify-items: center;
 }
 
 @media (min-width: 768px) {
@@ -542,8 +533,8 @@ a.hero__button {
 }
 
 .track-elements__card-description {
-   line-height: 1.4;
-   letter-spacing: 0.05em;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
 }
 
 /* ------------ */
@@ -827,8 +818,6 @@ a.hero__button {
   align-items: center;
 }
 
-
-
 .footer__quick-links {
   list-style: none;
   padding: 15px 40px;
@@ -849,7 +838,7 @@ a.hero__button {
 
   .footer__quick-links {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 15px 20px;
   }
 }
@@ -920,7 +909,7 @@ a.hero__button {
 }
 
 .lds-hourglass:after {
-  content: ' ';
+  content: " ";
   display: block;
   border-radius: 50%;
   width: 0;
@@ -934,12 +923,12 @@ a.hero__button {
 @keyframes lds-hourglass {
   0% {
     transform: rotate(0);
-    animation-timing-function: cubic-bezier(0.55,0.055,0.675,0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
 
   50% {
     transform: rotate(900deg);
-    animation-timing-function: cubic-bezier(0.215,0.61,0.355,1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
   100% {

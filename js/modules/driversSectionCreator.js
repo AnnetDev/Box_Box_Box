@@ -1,5 +1,3 @@
-// import contentData from "../contentData.json" assert { type: "json" };
-
 export const createDriversSection = async () => {
     const teamsSection = document.getElementById("teams");
 

@@ -8,6 +8,10 @@ export const trackElementsCreator = async () => {
     const res = await fetch("js/contentData.json");
     const contentData = await res.json();
 
+    if(!contentData.trackElementsSection) {
+        return;
+    }
+
     const sectionTitle = document.createElement("h2");
     const trackElementsList = document.createElement("ul");
 

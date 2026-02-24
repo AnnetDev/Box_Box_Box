@@ -8,6 +8,10 @@ export const flagsSectionCreator = async () => {
     const res = await fetch("js/contentData.json");
     const contentData = await res.json();
 
+    if(!contentData.flagsSection) {
+        return;
+    }
+
     const sectionTitle = document.createElement("h2");
     const flagsList = document.createElement("ul");
 
