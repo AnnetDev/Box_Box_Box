@@ -131,4 +131,4 @@ While SSR is objectively better for user-facing metrics, CSR's development effic
 ---
 
 **Author:** Anna Baidikova  
-**Repository:** [git@github.com:AnnetDev/Box_Box_Box.git]
+**Repository:** [github.com/AnnetDev/Box_Box_Box](https://github.com/AnnetDev/Box_Box_Box)
