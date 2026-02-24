@@ -129,6 +129,180 @@
         "imgSrc": "/images/icons/f1logo.svg",
         "imgAlt": "Formula 1 logo",
         "description": "Your short guide to F1 terminology, team roster and why \"we are checking\" is never a good sign"
-        }
-
+    },
+    "quotesSection": {
+        "title": "F1 Quotes — Explained",
+        "quotes": [
+            {
+                "blockquote": "“We are checking.” — Ferrari pit wall",
+                "meaning": "“We have no idea. Please wait.”"
+            },
+            {
+                "blockquote": "“Plan B.” — Ferrari pit wall",
+                "meaning": "“Plan A never existed.”"
+            },
+            {
+                "blockquote": "“Box, box.” — Every F1 race engineer ever",
+                "meaning": "“Come in. Something chaotic is happening.”"
+            },
+            {
+                "blockquote": "“Leave me alone, I know what I’m doing.” — Kimi Räikkönen",
+                "meaning": "“Stop talking. I’m driving.”"
+            },
+            {
+                "blockquote": "“NOOOOO!” — Charles Leclerc",
+                "meaning": "“I have just understood the strategy.”"
+            },
+            {
+                "blockquote": "“Tyres are gone.” - classic radio line",
+                "meaning": "“I’m now a passenger on ice.”"
+            },
+            {
+                "blockquote": "“Something is dangling between my legs.”",
+                "meaning": "“There’s a loose piece on the car and it’s… uncomfortably located.”"
+            },
+            {
+                "blockquote": "“Karma.” — Fernando Alonso",
+                "meaning": "“I remember everything. The universe does too.”"
+            },
+            {
+                "blockquote": "“Push, push.” — any race engineer",
+                "meaning": "“Drive faster. How? Figure it out.”"
+            },
+            {
+                "blockquote": "“Simply lovely.” — Max Verstappen",
+                "meaning": "“I am furious, but I’m being broadcast-friendly.”"
+            }
+        ]
+    },
+    "trackElementsSection": {
+        "title": "Track elements",
+        "elements": [
+            {
+                "image": "/images/icons/hairpin.svg",
+                "elementTitle": "Hairpin",
+                "description": "A 180° turn where cars slow down from \"extremely fast\" to \"my grandma's Prius.\" The ultimate test of braking. Also the place where overtakes happen because someone braked 0.2 seconds too late and now they're best friends with the barrier."
+            },
+            {
+                "image": "/images/icons/chicane.svg",
+                "elementTitle": "Chicane",
+                "description": "A sequence of quick left-right-left turns designed to slow cars down and make drivers question their life choices. Basically speed bumps, but make it Formula 1. Watch cars wiggle through like they're dodging responsibility."
+            },
+            {
+                "image": "/images/icons/straight.svg",
+                "elementTitle": "Straight",
+                "description": " The only part of the track where drivers can actually floor it and reach 350+ km/h. No turning, just pure speed and hoping your engine doesn't explode. Also where DRS turns your car into a rocket ship (terms and conditions apply)."
+            },
+            {
+                "image": "/images/icons/apex.svg",
+                "elementTitle": "Apex",
+                "description": "The geometrically perfect point of a corner. Hit it and you're a hero. Miss it and you're in the gravel, contemplating your choices while marshals wave flags. It's like the sweet spot on a tennis racket, except missing it costs millions."
+            }
+        ]
+    },
+    "techSection": {
+        "title": "Tech",
+        "className": "tech",
+        "items": [
+            {
+                "title": "DRS",
+                "label": "Drag Reduction System",
+                "description": "The rear wing opens up and suddenly you're 15 km/h faster. It's like a cheat code, but legal. Only works if you're within 1 second of the car ahead and in designated zones. Basically: \"You're slow? Here, have some extra speed. You're welcome.\""
+            },
+            {
+                "title": "ERS",
+                "label": "Energy Recovery System",
+                "description": "Harvests energy from braking and exhaust heat to give you an extra 160 horsepower boost. It's a hybrid system that makes your car both fast AND environmentally conscious. Manage it wrong and you're a sitting duck. Manage it right and you're overtaking everyone."
+            },
+            {
+                "title": "KERS",
+                "label": "Kinetic Energy Recovery (retired 2014)",
+                "description": "The OG energy recovery system. Gave you 80 extra horsepower for ~6 seconds per lap. Drivers would save it like a video game power-up, then unleash it for dramatic overtakes. Now replaced by ERS, which is basically KERS but it went to the gym."
+            }
+        ]
+    },
+    "flagsSection": {
+        "title": "Flags Reference",
+        "flags": [
+            {
+                "color": "Green",
+                "modifierClass": "flags__list-item-flag--green",
+                "description": "Go Fast"
+            },
+            {
+                "color": "Yellow",
+                "modifierClass": "flags__list-item-flag--yellow",
+                "description": "Slow Down"
+            },
+            {
+                "color": "Red",
+                "modifierClass": "flags__list-item-flag--red",
+                "description": "Stop Session"
+            },
+            {
+                "color": "Blue",
+                "modifierClass": "flags__list-item-flag--blue",
+                "description": "Move Over"
+            },
+            {
+                "color": "White",
+                "modifierClass": "flags__list-item-flag--white",
+                "description": "Slow Vehicle"
+            },
+            {
+                "color": "Black",
+                "modifierClass": "flags__list-item-flag--black",
+                "description": "Disqualified"
+            },
+            {
+                "color": "Chequered",
+                "modifierClass": "flags__list-item-flag--chequered",
+                "description": "Finish"
+            }
+        ]
+    },
+    "footerSection": {
+        "quickLinks": [
+            {
+                "label": "Race Terms",
+                "href": "#race-terms"
+            },
+            {
+                "label": "F1 Quotes — Explained",
+                "href": "#quotes"
+            },
+            {
+                "label": "Track elements",
+                "href": "#track-elements"
+            },
+            {
+                "label": "Tech",
+                "href": "#tech"
+            },
+            {
+                "label": "Flags Reference",
+                "href": "#flags"
+            },
+            {
+                "label": "Teams and drivers 2026",
+                "href": "#teams"
+            }
+        ],
+        "externalLinks": [
+            {
+                "label": "F1 Official",
+                "class": "footer__f1-link",
+                "href": "https://www.formula1.com/",
+                "target": "_blank",
+                "rel": "noreferrer noopener"
+            },
+            {
+                "label": "Anna Baidikova",
+                "class": "footer__author-link",
+                "href": "https://github.com/AnnetDev",
+                "target": "_blank",
+                "rel": "noreferrer noopener"
+            }
+        ]
+    }
 }
